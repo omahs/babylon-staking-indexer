@@ -29,7 +29,7 @@ The Babylon Indexer interacts with the following components:
  as websocket subscriptions for events.
 - **BTC (Bitcoin)**: Syncs withdrawal transactions and other BTC-related events.
 - **MongoDB**: Serves as the storage layer where delegation, global parameters 
-and finality provider data is stored.
+and finality provider data are stored.
 - **API Event Queue**: The indexer pushes API-related events into a queue 
 (RabbitMQ), consumed by the Babylon API for frontend-facing operations.
 - **Admin Portal/CLI**: Provides interfaces for triggering event replays and 
